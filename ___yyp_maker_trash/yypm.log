@@ -1,0 +1,459 @@
+You are using YYP Maker v1.1.5, released in 14-08-2022
+
+
+
+[30-07-2024 09:18:07] Initialized GameMaker Project: alchemy.yyp
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/animcurves
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/extensions
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/fonts
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/notes
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects
+[30-07-2024 09:18:07] Checking oTorch
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oTorch
+[30-07-2024 09:18:07] Checking oMagicCircle
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oMagicCircle
+[30-07-2024 09:18:07] Checking oKey
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oKey
+[30-07-2024 09:18:07] Checking oInventory_icon
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oInventory_icon
+[30-07-2024 09:18:07] Checking oInventory
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oInventory
+[30-07-2024 09:18:07] Checking oFridge
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oFridge
+[30-07-2024 09:18:07] Checking oFkey
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oFkey
+[30-07-2024 09:18:07] Checking oDoor
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oDoor
+[30-07-2024 09:18:07] Checking oCollision
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oCollision
+[30-07-2024 09:18:07] Checking oCharacter
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oCharacter
+[30-07-2024 09:18:07] Checking oChangeRoom
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/objects/oChangeRoom
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oChangeRoom
+[30-07-2024 09:18:07] Checking Step_0.gml
+[30-07-2024 09:18:07] Checking oChangeRoom.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oChangeRoom/oChangeRoom.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oChangeRoom/oChangeRoom.yy
+[30-07-2024 09:18:07] Par: "folders/Objects" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oChangeRoom/oChangeRoom.yy"
+[30-07-2024 09:18:07] Found Object: oChangeRoom
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oCharacter
+[30-07-2024 09:18:07] Checking Step_0.gml
+[30-07-2024 09:18:07] Checking oCharacter.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oCharacter/oCharacter.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oCharacter/oCharacter.yy
+[30-07-2024 09:18:07] Par: "folders/Objects" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oCharacter/oCharacter.yy"
+[30-07-2024 09:18:07] Found Object: oCharacter
+[30-07-2024 09:18:07] Checking Create_0.gml
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oCollision
+[30-07-2024 09:18:07] Checking oCollision.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oCollision/oCollision.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oCollision/oCollision.yy
+[30-07-2024 09:18:07] Par: "folders/Objects" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oCollision/oCollision.yy"
+[30-07-2024 09:18:07] Found Object: oCollision
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oDoor
+[30-07-2024 09:18:07] Checking Step_0.gml
+[30-07-2024 09:18:07] Checking oDoor.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oDoor/oDoor.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oDoor/oDoor.yy
+[30-07-2024 09:18:07] Par: "folders/Objects/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oDoor/oDoor.yy"
+[30-07-2024 09:18:07] Found Object: oDoor
+[30-07-2024 09:18:07] Checking Create_0.gml
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oFkey
+[30-07-2024 09:18:07] Checking oFkey.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oFkey/oFkey.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oFkey/oFkey.yy
+[30-07-2024 09:18:07] Par: "folders/Objects" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oFkey/oFkey.yy"
+[30-07-2024 09:18:07] Found Object: oFkey
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oFridge
+[30-07-2024 09:18:07] Checking Step_0.gml
+[30-07-2024 09:18:07] Checking oFridge.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oFridge/oFridge.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oFridge/oFridge.yy
+[30-07-2024 09:18:07] Par: "folders/Objects/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oFridge/oFridge.yy"
+[30-07-2024 09:18:07] Found Object: oFridge
+[30-07-2024 09:18:07] Checking Create_0.gml
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oInventory
+[30-07-2024 09:18:07] Checking Draw_0.gml
+[30-07-2024 09:18:07] Checking Create_0.gml
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oInventory_icon
+[30-07-2024 09:18:07] Checking Step_0.gml
+[30-07-2024 09:18:07] Checking oInventory_icon.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oInventory_icon/oInventory_icon.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oInventory_icon/oInventory_icon.yy
+[30-07-2024 09:18:07] Par: "folders/Objects/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oInventory_icon/oInventory_icon.yy"
+[30-07-2024 09:18:07] Found Object: oInventory_icon
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oKey
+[30-07-2024 09:18:07] Checking Step_0.gml
+[30-07-2024 09:18:07] Checking oKey.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oKey/oKey.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oKey/oKey.yy
+[30-07-2024 09:18:07] Par: "folders/Objects/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oKey/oKey.yy"
+[30-07-2024 09:18:07] Found Object: oKey
+[30-07-2024 09:18:07] Checking Create_0.gml
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oMagicCircle
+[30-07-2024 09:18:07] Checking Step_0.gml
+[30-07-2024 09:18:07] Checking oMagicCircle.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oMagicCircle/oMagicCircle.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oMagicCircle/oMagicCircle.yy
+[30-07-2024 09:18:07] Par: "folders/Objects/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oMagicCircle/oMagicCircle.yy"
+[30-07-2024 09:18:07] Found Object: oMagicCircle
+[30-07-2024 09:18:07] Checking Create_0.gml
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/objects/oTorch
+[30-07-2024 09:18:07] Checking oTorch.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/objects/oTorch/oTorch.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/objects/oTorch/oTorch.yy
+[30-07-2024 09:18:07] Par: "folders/Objects/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/objects/oTorch/oTorch.yy"
+[30-07-2024 09:18:07] Found Object: oTorch
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options
+[30-07-2024 09:18:07] Checking windows
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/windows
+[30-07-2024 09:18:07] Checking tvos
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/tvos
+[30-07-2024 09:18:07] Checking operagx
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/operagx
+[30-07-2024 09:18:07] Checking main
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/main
+[30-07-2024 09:18:07] Checking mac
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/mac
+[30-07-2024 09:18:07] Checking linux
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/linux
+[30-07-2024 09:18:07] Checking ios
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/ios
+[30-07-2024 09:18:07] Checking html5
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/html5
+[30-07-2024 09:18:07] Checking android
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/options/android
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/android
+[30-07-2024 09:18:07] Checking options_android.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/android/options_android.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/android/options_android.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/html5
+[30-07-2024 09:18:07] Checking options_html5.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/html5/options_html5.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/html5/options_html5.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/ios
+[30-07-2024 09:18:07] Checking options_ios.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/ios/options_ios.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/ios/options_ios.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/linux
+[30-07-2024 09:18:07] Checking options_linux.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/linux/options_linux.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/linux/options_linux.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/mac
+[30-07-2024 09:18:07] Checking options_mac.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/mac/options_mac.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/mac/options_mac.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/main
+[30-07-2024 09:18:07] Checking options_main.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/main/options_main.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/main/options_main.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/operagx
+[30-07-2024 09:18:07] Checking options_operagx.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/operagx/options_operagx.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/operagx/options_operagx.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/tvos
+[30-07-2024 09:18:07] Checking options_tvos.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/tvos/options_tvos.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/tvos/options_tvos.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/options/windows
+[30-07-2024 09:18:07] Checking options_windows.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/options/windows/options_windows.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/options/windows/options_windows.yy
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/paths
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/rooms
+[30-07-2024 09:18:07] Checking House
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/rooms/House
+[30-07-2024 09:18:07] Checking Basement
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/rooms/Basement
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/rooms/Basement
+[30-07-2024 09:18:07] Checking Basement.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/rooms/Basement/Basement.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/rooms/Basement/Basement.yy
+[30-07-2024 09:18:07] Par: "folders/Rooms" at dir: "C:/Users/User/GameMakerProjects/alchemy/rooms/Basement/Basement.yy"
+[30-07-2024 09:18:07] Found Room: Basement
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/rooms/House
+[30-07-2024 09:18:07] Checking House.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/rooms/House/House.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/rooms/House/House.yy
+[30-07-2024 09:18:07] Par: "folders/Rooms" at dir: "C:/Users/User/GameMakerProjects/alchemy/rooms/House/House.yy"
+[30-07-2024 09:18:07] Found Room: House
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/scripts
+[30-07-2024 09:18:07] Checking ShowKey
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/scripts/ShowKey
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/scripts/ShowKey
+[30-07-2024 09:18:07] Checking ShowKey.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/scripts/ShowKey/ShowKey.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/scripts/ShowKey/ShowKey.yy
+[30-07-2024 09:18:07] Par: "folders/Scripts" at dir: "C:/Users/User/GameMakerProjects/alchemy/scripts/ShowKey/ShowKey.yy"
+[30-07-2024 09:18:07] Found Script: ShowKey
+[30-07-2024 09:18:07] Checking ShowKey.gml
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sequences
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/shaders
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sounds
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites
+[30-07-2024 09:18:07] Checking sTorch
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch
+[30-07-2024 09:18:07] Checking sMagicCircle
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle
+[30-07-2024 09:18:07] Checking sKey
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sKey
+[30-07-2024 09:18:07] Checking sItem_ui
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui
+[30-07-2024 09:18:07] Checking sInventory_icon
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon
+[30-07-2024 09:18:07] Checking sInventory
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory
+[30-07-2024 09:18:07] Checking sHouse
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse
+[30-07-2024 09:18:07] Checking sFridge
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge
+[30-07-2024 09:18:07] Checking sFkey
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey
+[30-07-2024 09:18:07] Checking sDoor
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor
+[30-07-2024 09:18:07] Checking sCollision
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision
+[30-07-2024 09:18:07] Checking sCharacter
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter
+[30-07-2024 09:18:07] Checking sChangeRoom
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom
+[30-07-2024 09:18:07] Checking sBasement
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement
+[30-07-2024 09:18:07] Checking sBasement.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement/sBasement.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement/sBasement.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/background" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement/sBasement.yy"
+[30-07-2024 09:18:07] Found Sprite: sBasement
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement/layers
+[30-07-2024 09:18:07] Checking c4f9b0d9-2b1b-4759-88da-bb584934fce6.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement/layers
+[30-07-2024 09:18:07] Checking c4f9b0d9-2b1b-4759-88da-bb584934fce6
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement/layers/c4f9b0d9-2b1b-4759-88da-bb584934fce6
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sBasement/layers/c4f9b0d9-2b1b-4759-88da-bb584934fce6
+[30-07-2024 09:18:07] Checking fe4dd423-84f1-4f59-9054-078648247fec.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom
+[30-07-2024 09:18:07] Checking sChangeRoom.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom/sChangeRoom.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom/sChangeRoom.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom/sChangeRoom.yy"
+[30-07-2024 09:18:07] Found Sprite: sChangeRoom
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom/layers
+[30-07-2024 09:18:07] Checking 1692c3f9-86b1-466d-8ba6-a3b18c0a7595.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom/layers
+[30-07-2024 09:18:07] Checking 1692c3f9-86b1-466d-8ba6-a3b18c0a7595
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom/layers/1692c3f9-86b1-466d-8ba6-a3b18c0a7595
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sChangeRoom/layers/1692c3f9-86b1-466d-8ba6-a3b18c0a7595
+[30-07-2024 09:18:07] Checking 260dd4f0-8519-4754-aae9-284e67232efa.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter
+[30-07-2024 09:18:07] Checking sCharacter.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter/sCharacter.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter/sCharacter.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter/sCharacter.yy"
+[30-07-2024 09:18:07] Found Sprite: sCharacter
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter/layers
+[30-07-2024 09:18:07] Checking 76c5ffc2-063e-4fb1-9b2c-f6ed50e6cbf1.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter/layers
+[30-07-2024 09:18:07] Checking 76c5ffc2-063e-4fb1-9b2c-f6ed50e6cbf1
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter/layers/76c5ffc2-063e-4fb1-9b2c-f6ed50e6cbf1
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCharacter/layers/76c5ffc2-063e-4fb1-9b2c-f6ed50e6cbf1
+[30-07-2024 09:18:07] Checking 63e700a3-9e29-4517-a158-6e97b9cb7d33.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision
+[30-07-2024 09:18:07] Checking sCollision.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision/sCollision.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision/sCollision.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision/sCollision.yy"
+[30-07-2024 09:18:07] Found Sprite: sCollision
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision/layers
+[30-07-2024 09:18:07] Checking 2d86fcef-3b2d-406c-89a0-e72ecbe6a2cb.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision/layers
+[30-07-2024 09:18:07] Checking 2d86fcef-3b2d-406c-89a0-e72ecbe6a2cb
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision/layers/2d86fcef-3b2d-406c-89a0-e72ecbe6a2cb
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sCollision/layers/2d86fcef-3b2d-406c-89a0-e72ecbe6a2cb
+[30-07-2024 09:18:07] Checking 5e14c1d1-1205-470a-a19e-c696f3ccddf9.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor
+[30-07-2024 09:18:07] Checking sDoor.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/sDoor.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/sDoor.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/sDoor.yy"
+[30-07-2024 09:18:07] Found Sprite: sDoor
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/layers
+[30-07-2024 09:18:07] Checking 920de2e3-17a0-4f03-ab2e-524c5dc020c4.png
+[30-07-2024 09:18:07] Checking 2965d582-22a5-43a6-805d-f4bffaa9a44c.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/layers
+[30-07-2024 09:18:07] Checking 920de2e3-17a0-4f03-ab2e-524c5dc020c4
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/layers/920de2e3-17a0-4f03-ab2e-524c5dc020c4
+[30-07-2024 09:18:07] Checking 2965d582-22a5-43a6-805d-f4bffaa9a44c
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/layers/2965d582-22a5-43a6-805d-f4bffaa9a44c
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/layers/2965d582-22a5-43a6-805d-f4bffaa9a44c
+[30-07-2024 09:18:07] Checking 2f738dc7-3e60-4f5d-a822-e221bca4075d.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sDoor/layers/920de2e3-17a0-4f03-ab2e-524c5dc020c4
+[30-07-2024 09:18:07] Checking 2f738dc7-3e60-4f5d-a822-e221bca4075d.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey
+[30-07-2024 09:18:07] Checking sFkey.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/sFkey.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/sFkey.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/sFkey.yy"
+[30-07-2024 09:18:07] Found Sprite: sFkey
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers
+[30-07-2024 09:18:07] Checking e75da6d9-d859-4dbf-a50e-9e56d88e8834.png
+[30-07-2024 09:18:07] Checking b7a22be3-4f8d-4e6a-b2bb-fff9ac8dd801.png
+[30-07-2024 09:18:07] Checking 38acfe3c-8998-457b-9536-e0934c48910e.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers
+[30-07-2024 09:18:07] Checking e75da6d9-d859-4dbf-a50e-9e56d88e8834
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers/e75da6d9-d859-4dbf-a50e-9e56d88e8834
+[30-07-2024 09:18:07] Checking b7a22be3-4f8d-4e6a-b2bb-fff9ac8dd801
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers/b7a22be3-4f8d-4e6a-b2bb-fff9ac8dd801
+[30-07-2024 09:18:07] Checking 38acfe3c-8998-457b-9536-e0934c48910e
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers/38acfe3c-8998-457b-9536-e0934c48910e
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers/38acfe3c-8998-457b-9536-e0934c48910e
+[30-07-2024 09:18:07] Checking 288910a7-ce1f-46fa-85e2-cee257882bec.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers/b7a22be3-4f8d-4e6a-b2bb-fff9ac8dd801
+[30-07-2024 09:18:07] Checking 288910a7-ce1f-46fa-85e2-cee257882bec.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFkey/layers/e75da6d9-d859-4dbf-a50e-9e56d88e8834
+[30-07-2024 09:18:07] Checking 288910a7-ce1f-46fa-85e2-cee257882bec.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge
+[30-07-2024 09:18:07] Checking sFridge.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge/sFridge.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge/sFridge.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge/sFridge.yy"
+[30-07-2024 09:18:07] Found Sprite: sFridge
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge/layers
+[30-07-2024 09:18:07] Checking cfe0cc6f-2467-4d05-8fa3-8039fe615516.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge/layers
+[30-07-2024 09:18:07] Checking cfe0cc6f-2467-4d05-8fa3-8039fe615516
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge/layers/cfe0cc6f-2467-4d05-8fa3-8039fe615516
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sFridge/layers/cfe0cc6f-2467-4d05-8fa3-8039fe615516
+[30-07-2024 09:18:07] Checking 117f6671-55b0-4612-84f2-420e556aa23b.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse
+[30-07-2024 09:18:07] Checking sHouse.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse/sHouse.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse/sHouse.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/background" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse/sHouse.yy"
+[30-07-2024 09:18:07] Found Sprite: sHouse
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse/layers
+[30-07-2024 09:18:07] Checking d6eb73d5-7789-4c9b-810b-dee18f58c5d7.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse/layers
+[30-07-2024 09:18:07] Checking d6eb73d5-7789-4c9b-810b-dee18f58c5d7
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse/layers/d6eb73d5-7789-4c9b-810b-dee18f58c5d7
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sHouse/layers/d6eb73d5-7789-4c9b-810b-dee18f58c5d7
+[30-07-2024 09:18:07] Checking f5c7129e-4fec-409f-96a4-f82e04ad3dfa.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory
+[30-07-2024 09:18:07] Checking sInventory.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory/sInventory.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory/sInventory.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory/sInventory.yy"
+[30-07-2024 09:18:07] Found Sprite: sInventory
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory/layers
+[30-07-2024 09:18:07] Checking d620a529-e261-41b4-89fd-b257214175f4.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory/layers
+[30-07-2024 09:18:07] Checking d620a529-e261-41b4-89fd-b257214175f4
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory/layers/d620a529-e261-41b4-89fd-b257214175f4
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory/layers/d620a529-e261-41b4-89fd-b257214175f4
+[30-07-2024 09:18:07] Checking b6cf0fab-a063-479d-9d24-807c48b1e2fe.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon
+[30-07-2024 09:18:07] Checking sInventory_icon.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon/sInventory_icon.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon/sInventory_icon.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon/sInventory_icon.yy"
+[30-07-2024 09:18:07] Found Sprite: sInventory_icon
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon/layers
+[30-07-2024 09:18:07] Checking 9557440f-5c50-4c7f-884f-e08befe7bf45.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon/layers
+[30-07-2024 09:18:07] Checking 9557440f-5c50-4c7f-884f-e08befe7bf45
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon/layers/9557440f-5c50-4c7f-884f-e08befe7bf45
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sInventory_icon/layers/9557440f-5c50-4c7f-884f-e08befe7bf45
+[30-07-2024 09:18:07] Checking 2c7ecf82-dc2d-4153-ac13-371d29267ed3.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui
+[30-07-2024 09:18:07] Checking sItem_ui.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui/sItem_ui.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui/sItem_ui.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui/sItem_ui.yy"
+[30-07-2024 09:18:07] Found Sprite: sItem_ui
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui/layers
+[30-07-2024 09:18:07] Checking 6d639701-e65e-4a16-b1c7-f1471a2f96d6.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui/layers
+[30-07-2024 09:18:07] Checking 6d639701-e65e-4a16-b1c7-f1471a2f96d6
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui/layers/6d639701-e65e-4a16-b1c7-f1471a2f96d6
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sItem_ui/layers/6d639701-e65e-4a16-b1c7-f1471a2f96d6
+[30-07-2024 09:18:07] Checking 7501dbfa-82ef-4b7d-8cde-7aecd74b0d20.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sKey
+[30-07-2024 09:18:07] Checking sKey.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sKey/sKey.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sKey/sKey.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sKey/sKey.yy"
+[30-07-2024 09:18:07] Found Sprite: sKey
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sKey/layers
+[30-07-2024 09:18:07] Checking c4c05818-4f43-4a2b-b476-a3d3f34cd1ed.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sKey/layers
+[30-07-2024 09:18:07] Checking c4c05818-4f43-4a2b-b476-a3d3f34cd1ed
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sKey/layers/c4c05818-4f43-4a2b-b476-a3d3f34cd1ed
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sKey/layers/c4c05818-4f43-4a2b-b476-a3d3f34cd1ed
+[30-07-2024 09:18:07] Checking 1560d6aa-aeff-402c-bab7-f1fdfe570764.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle
+[30-07-2024 09:18:07] Checking sMagicCircle.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/sMagicCircle.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/sMagicCircle.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/sMagicCircle.yy"
+[30-07-2024 09:18:07] Found Sprite: sMagicCircle
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/layers
+[30-07-2024 09:18:07] Checking 8f1f35cc-dae4-4a76-80b5-40ea666480e8.png
+[30-07-2024 09:18:07] Checking 05c9789d-dc07-4156-9fe8-2f3a8002068d.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/layers
+[30-07-2024 09:18:07] Checking 8f1f35cc-dae4-4a76-80b5-40ea666480e8
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/layers/8f1f35cc-dae4-4a76-80b5-40ea666480e8
+[30-07-2024 09:18:07] Checking 05c9789d-dc07-4156-9fe8-2f3a8002068d
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/layers/05c9789d-dc07-4156-9fe8-2f3a8002068d
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/layers/05c9789d-dc07-4156-9fe8-2f3a8002068d
+[30-07-2024 09:18:07] Checking e6a6ed9e-2628-4872-989a-b1c18eb71e6f.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sMagicCircle/layers/8f1f35cc-dae4-4a76-80b5-40ea666480e8
+[30-07-2024 09:18:07] Checking e6a6ed9e-2628-4872-989a-b1c18eb71e6f.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch
+[30-07-2024 09:18:07] Checking sTorch.yy
+[30-07-2024 09:18:07] Parsing C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/sTorch.yy
+[30-07-2024 09:18:07] Reading C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/sTorch.yy
+[30-07-2024 09:18:07] Par: "folders/Sprites/items" at dir: "C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/sTorch.yy"
+[30-07-2024 09:18:07] Found Sprite: sTorch
+[30-07-2024 09:18:07] Checking layers
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers
+[30-07-2024 09:18:07] Checking beccacf6-2b6d-4c59-8ced-667fa25d66ba.png
+[30-07-2024 09:18:07] Checking 8f5f3663-1c8c-40a3-b221-9ffcd96f750c.png
+[30-07-2024 09:18:07] Checking 8d979b2c-ebe8-4411-ac7d-11eaec295ff8.png
+[30-07-2024 09:18:07] Checking 31b48481-7b6d-4e41-b6e6-3888c96e8f3e.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers
+[30-07-2024 09:18:07] Checking beccacf6-2b6d-4c59-8ced-667fa25d66ba
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/beccacf6-2b6d-4c59-8ced-667fa25d66ba
+[30-07-2024 09:18:07] Checking 8f5f3663-1c8c-40a3-b221-9ffcd96f750c
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/8f5f3663-1c8c-40a3-b221-9ffcd96f750c
+[30-07-2024 09:18:07] Checking 8d979b2c-ebe8-4411-ac7d-11eaec295ff8
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/8d979b2c-ebe8-4411-ac7d-11eaec295ff8
+[30-07-2024 09:18:07] Checking 31b48481-7b6d-4e41-b6e6-3888c96e8f3e
+[30-07-2024 09:18:07] Directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/31b48481-7b6d-4e41-b6e6-3888c96e8f3e
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/31b48481-7b6d-4e41-b6e6-3888c96e8f3e
+[30-07-2024 09:18:07] Checking 2a20bb94-cae0-4238-9740-a3ee57e56175.png
+[30-07-2024 09:18:07] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/8d979b2c-ebe8-4411-ac7d-11eaec295ff8
+[30-07-2024 09:18:08] Checking 2a20bb94-cae0-4238-9740-a3ee57e56175.png
+[30-07-2024 09:18:08] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/8f5f3663-1c8c-40a3-b221-9ffcd96f750c
+[30-07-2024 09:18:08] Checking 2a20bb94-cae0-4238-9740-a3ee57e56175.png
+[30-07-2024 09:18:08] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/sprites/sTorch/layers/beccacf6-2b6d-4c59-8ced-667fa25d66ba
+[30-07-2024 09:18:08] Checking 2a20bb94-cae0-4238-9740-a3ee57e56175.png
+[30-07-2024 09:18:08] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/tilesets
+[30-07-2024 09:18:08] Current parent directory: C:/Users/User/GameMakerProjects/alchemy/timelines
+[30-07-2024 09:18:08] Moving files to trash...
+[30-07-2024 09:18:08] Files yeeted successfully!
+[30-07-2024 09:18:08] Generating YYP...
+[30-07-2024 09:18:08] alchemy.yyp created successfully!
