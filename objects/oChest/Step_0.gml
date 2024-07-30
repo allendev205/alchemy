@@ -23,4 +23,21 @@ if open
 	{
 		image_speed = 0
 	}
+	
+	if open_first
+	{
+		instance_create_layer(x,y,"element_animation",oElement_Animation)
+		open_first = false
+	}
+	
+	with oElement_Animation
+	{
+		if image_index >= image_number
+		{
+			image_speed = 0
+			instance_destroy()
+		}
+		
+	}
+	
 }
