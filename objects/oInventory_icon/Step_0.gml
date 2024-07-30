@@ -5,6 +5,6 @@ if (mouse_x > x and mouse_x < x + sprite_get_width(sInventory_icon) and
 	if click
 	{
 		oInventory.open = !oInventory.open
-		show_debug_message("hi")
+		
 	}
 }
