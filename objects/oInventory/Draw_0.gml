@@ -22,7 +22,13 @@ if open
   
 		if (item != noone)
 		{
-			draw_sprite(item,0,xx+8,yy+8)
+			if (array_contains(four_element, item)) {
+				draw_sprite_ext(item, 0, xx+8, yy+8, 0.5, 0.5, 0, c_white, 1);
+			}
+			else
+			{
+				draw_sprite(item,0,xx+8,yy+8)
+			}
 		}
 	}
 }

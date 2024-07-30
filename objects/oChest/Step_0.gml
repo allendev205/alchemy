@@ -4,12 +4,7 @@ if collision_circle(x,y,32,oCharacter,false,true) and not open
 	if ShowKey()
 	{
 		open = true
-		while image_index < image_number -1
-		{
-			image_index += 1
-		}
-		
-
+		array_insert(global.items,0,sFire,sAir,sWater,sEarth)
 	}
 }
 else if pass == true
@@ -18,5 +13,14 @@ else if pass == true
 	with oFkey
 	{
 		instance_destroy()
+	}
+}
+
+if open
+{
+	image_speed = 1
+	if image_index >= image_number
+	{
+		image_speed = 0
 	}
 }
