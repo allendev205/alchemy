@@ -28,6 +28,7 @@
   "resources":[
     {"id":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},},
+    {"id":{"name":"oChest","path":"objects/oChest/oChest.yy",},},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"oFkey","path":"objects/oFkey/oFkey.yy",},},
@@ -44,6 +45,7 @@
     {"id":{"name":"sBasement","path":"sprites/sBasement/sBasement.yy",},},
     {"id":{"name":"sChangeRoom","path":"sprites/sChangeRoom/sChangeRoom.yy",},},
     {"id":{"name":"sCharacter","path":"sprites/sCharacter/sCharacter.yy",},},
+    {"id":{"name":"sChest","path":"sprites/sChest/sChest.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
     {"id":{"name":"sFkey","path":"sprites/sFkey/sFkey.yy",},},

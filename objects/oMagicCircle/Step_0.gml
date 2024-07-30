@@ -1,5 +1,6 @@
 if collision_circle(x,y,18,oCharacter,false,true)
 {
+	pass = true
 	if not trigger
 	{
 		if ShowKey()
@@ -13,8 +14,9 @@ if collision_circle(x,y,18,oCharacter,false,true)
 		}
 	}
 }
-else
+else if pass == true
 {
+	pass = false
 	trigger = false
 	image_index = 0
 	with oFkey
