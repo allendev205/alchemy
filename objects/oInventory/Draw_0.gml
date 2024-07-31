@@ -57,8 +57,7 @@ if room == Basement
 			
 			if (item != noone)
 			{
-				click = mouse_check_button_pressed(mb_right)
-				if click and mouse_x > xx and mouse_x < xx + 32 and mouse_y > yy and mouse_y < yy + 32
+				if MouseClick() and mouse_x > xx and mouse_x < xx + 32 and mouse_y > yy and mouse_y < yy + 32
 				{
 					if global.meterial_items[0] == noone or global.meterial_items[1] == noone
 					{
@@ -69,10 +68,10 @@ if room == Basement
 					{
 						show_debug_message("not enough space")
 					}
+					
 					Synthesis()
 					
 				}
-			
 					draw_sprite(item,0,xx+8,yy+8)
 				
 			}

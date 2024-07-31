@@ -16,6 +16,7 @@ function Synthesis(){
 			else
 			{
 				array_insert(global.items,0,element)
+				
 			}
 		}
 		else

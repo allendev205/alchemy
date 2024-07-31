@@ -8,6 +8,19 @@ if not oInventory.open
 	xspd = (right - left)
 	yspd = (down - up)
 
+	if xspd != 0 or yspd != 0
+	{
+		sprite_index = sCharacter_Move
+		if xspd != 0
+		{
+			image_xscale = sign(xspd)
+		}
+	}
+	else
+	{
+		sprite_index = sCharacter_Idle
+	}
+
 	if place_meeting(x + xspd,y,oCollision)
 	{
 		xspd = 0
