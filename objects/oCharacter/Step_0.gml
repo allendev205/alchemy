@@ -1,3 +1,4 @@
+var deltatime = delta_time / 15000;
 if not oInventory.open
 {
 	up = keyboard_check(ord("W"))
@@ -30,6 +31,6 @@ if not oInventory.open
 		yspd = 0
 	}
 
-	x += xspd
-	y += yspd
+	x += xspd * deltatime
+	y += yspd * deltatime
 }

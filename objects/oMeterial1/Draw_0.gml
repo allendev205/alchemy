@@ -10,6 +10,7 @@ if global.meterial_items[0] != noone
 		array_delete(global.meterial_items,0,1)
 		array_insert(global.items,0,item)
 	}
+
 	
 	draw_sprite(item,0,xx,yy)
 }

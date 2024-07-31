@@ -5,7 +5,7 @@ function Synthesis(){
 	{
 		var meterial1 = global.meterial_items[0]
 		var meterial2 = global.meterial_items[1]
-	
+		
 		if Recipes(meterial1,meterial2)
 		{
 			element = Recipes(meterial1,meterial2)

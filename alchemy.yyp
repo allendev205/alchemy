@@ -44,6 +44,7 @@
     {"id":{"name":"oMagicCircle","path":"objects/oMagicCircle/oMagicCircle.yy",},},
     {"id":{"name":"oMeterial1","path":"objects/oMeterial1/oMeterial1.yy",},},
     {"id":{"name":"oMeterial2","path":"objects/oMeterial2/oMeterial2.yy",},},
+    {"id":{"name":"oRoomStart","path":"objects/oRoomStart/oRoomStart.yy",},},
     {"id":{"name":"oTorch","path":"objects/oTorch/oTorch.yy",},},
     {"id":{"name":"Basement","path":"rooms/Basement/Basement.yy",},},
     {"id":{"name":"House","path":"rooms/House/House.yy",},},
