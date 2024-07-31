@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oSelect",
-  "eventList":[],
+  "%Name":"oMeterial2",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oSelect",
+  "name":"oMeterial2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"synthesis",
+    "path":"folders/Objects/synthesis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sSelect",
-    "path":"sprites/sSelect/sSelect.yy",
+    "name":"sMeterial",
+    "path":"sprites/sMeterial/sMeterial.yy",
   },
   "spriteMaskId":null,
   "visible":true,
