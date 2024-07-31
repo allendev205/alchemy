@@ -2,9 +2,9 @@ if go_basement
 {
 	if oDoor.image_index == 1
 	{
-		if collision_rectangle(x,y,x+32,y+32,oCharacter,false,true)
+		if collision_rectangle(x-16,y-32,x+16,y,oCharacter,false,true)
 		{
-			oCharacter.y = y + 25
+			oCharacter.y = y + 20
 			oCharacter.x = x
 			room_goto(target)
 		}
@@ -12,9 +12,9 @@ if go_basement
 }
 else
 {
-	if collision_rectangle(x,y,x+32,y+32,oCharacter,false,true)
+	if collision_rectangle(x-16,y-32,x+16,y,oCharacter,false,true)
 	{
-		oCharacter.y = y + 25
+		oCharacter.y = y + 20
 		oCharacter.x = x
 		room_goto(target)
 	}
