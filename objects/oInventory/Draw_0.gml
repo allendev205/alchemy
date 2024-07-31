@@ -1,7 +1,6 @@
 //normal open
 if open
 {
-	
 	x = 143
 	
 	draw_self(); 
@@ -70,6 +69,7 @@ if room == Basement
 					{
 						show_debug_message("not enough space")
 					}
+					Synthesis()
 					
 				}
 			
