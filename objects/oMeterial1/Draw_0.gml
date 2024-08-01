@@ -14,3 +14,7 @@ if global.meterial_items[0] != noone
 	
 	draw_sprite(item,0,xx,yy)
 }
+else
+{
+	ShowDialog(0,0,"")
+}

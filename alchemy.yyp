@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Font","folderPath":"folders/Font.yy","name":"Font","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"items","folderPath":"folders/Objects/items.yy","name":"items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"synthesis","folderPath":"folders/Objects/synthesis.yy","name":"synthesis","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -29,10 +30,12 @@
   },
   "name":"alchemy",
   "resources":[
+    {"id":{"name":"fDialog","path":"fonts/fDialog/fDialog.yy",},},
     {"id":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},},
     {"id":{"name":"oChest","path":"objects/oChest/oChest.yy",},},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},},
+    {"id":{"name":"oDialog","path":"objects/oDialog/oDialog.yy",},},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"oElement_Animation","path":"objects/oElement_Animation/oElement_Animation.yy",},},
     {"id":{"name":"oFkey","path":"objects/oFkey/oFkey.yy",},},
@@ -50,6 +53,7 @@
     {"id":{"name":"House","path":"rooms/House/House.yy",},},
     {"id":{"name":"MouseClick","path":"scripts/MouseClick/MouseClick.yy",},},
     {"id":{"name":"Recipes","path":"scripts/Recipes/Recipes.yy",},},
+    {"id":{"name":"ShowDialog","path":"scripts/ShowDialog/ShowDialog.yy",},},
     {"id":{"name":"ShowKey","path":"scripts/ShowKey/ShowKey.yy",},},
     {"id":{"name":"Synthesis","path":"scripts/Synthesis/Synthesis.yy",},},
     {"id":{"name":"sAir","path":"sprites/sAir/sAir.yy",},},

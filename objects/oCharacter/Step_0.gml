@@ -1,4 +1,4 @@
-var deltatime = delta_time / 15000;
+var deltatime = delta_time / 18000;
 if not oInventory.open
 {
 	up = keyboard_check(ord("W"))

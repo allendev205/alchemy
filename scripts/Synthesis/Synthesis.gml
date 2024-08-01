@@ -11,7 +11,7 @@ function Synthesis(){
 			element = Recipes(meterial1,meterial2)
 			if array_contains(global.items,element) or array_contains(global.meterial_items,element)
 			{
-				show_debug_message("you already have")
+				ShowDialog(170,220,"you already have")
 			}
 			else
 			{
@@ -21,7 +21,7 @@ function Synthesis(){
 		}
 		else
 		{
-			show_debug_message("you don't have the knowledge")
+			ShowDialog(170,220,"you don't have the knowledge")
 		}
 	}
 }

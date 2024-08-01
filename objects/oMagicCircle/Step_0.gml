@@ -36,4 +36,7 @@ else if pass == true
 	{
 		instance_destroy()
 	}
+	array_insert(global.items,0,global.meterial_items[0],global.meterial_items[1])
+	array_delete(global.meterial_items,0,2)
+	ShowDialog(0,0,"")
 }
