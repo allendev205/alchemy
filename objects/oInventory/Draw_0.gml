@@ -25,9 +25,20 @@ if open
   
 		if (item != noone)
 		{
+			if  mouse_x > xx and mouse_x < xx + 32 and mouse_y > yy and mouse_y < yy + 32
+			{
+				var item_name = sprite_get_name(item)
+				item_name = string_delete(item_name,1,1)
+				ShowItemName(xx,yy-12,item_name)
+			}
+			
 			draw_sprite(item,0,xx+8,yy+8)
 		}
 	}
+}
+else
+{
+	ShowItemName(0,0,"")
 }
 //magic circle open
 if room == Basement
@@ -72,9 +83,17 @@ if room == Basement
 					Synthesis()
 					
 				}
-					draw_sprite(item,0,xx+8,yy+8)
+				else if  mouse_x > xx and mouse_x < xx + 32 and mouse_y > yy and mouse_y < yy + 32
+				{
+					var item_name = sprite_get_name(item)
+					item_name = string_delete(item_name,1,1)
+					ShowItemName(xx,yy-12,item_name)
+				}
+				
+				draw_sprite(item,0,xx+8,yy+8)
 				
 			}
 		}
 	}
+	
 }
