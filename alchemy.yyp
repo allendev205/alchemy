@@ -69,6 +69,8 @@
     {"id":{"name":"sCharacter_Idle","path":"sprites/sCharacter_Idle/sCharacter_Idle.yy",},},
     {"id":{"name":"sCharacter_Move","path":"sprites/sCharacter_Move/sCharacter_Move.yy",},},
     {"id":{"name":"sCharacterFinal","path":"sprites/sCharacterFinal/sCharacterFinal.yy",},},
+    {"id":{"name":"sCharacterFinalJump","path":"sprites/sCharacterFinalJump/sCharacterFinalJump.yy",},},
+    {"id":{"name":"sCharacterFinalRun","path":"sprites/sCharacterFinalRun/sCharacterFinalRun.yy",},},
     {"id":{"name":"sChest","path":"sprites/sChest/sChest.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
