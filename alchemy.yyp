@@ -12,6 +12,7 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Font","folderPath":"folders/Font.yy","name":"Font","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"final","folderPath":"folders/Objects/final.yy","name":"final","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"items","folderPath":"folders/Objects/items.yy","name":"items","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"synthesis","folderPath":"folders/Objects/synthesis.yy","name":"synthesis","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -19,6 +20,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"background","folderPath":"folders/Sprites/background.yy","name":"background","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"element","folderPath":"folders/Sprites/element.yy","name":"element","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"final","folderPath":"folders/Sprites/final.yy","name":"final","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"four_element","folderPath":"folders/Sprites/four_element.yy","name":"four_element","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"items","folderPath":"folders/Sprites/items.yy","name":"items","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -33,6 +35,7 @@
     {"id":{"name":"fDialog","path":"fonts/fDialog/fDialog.yy",},},
     {"id":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},},
+    {"id":{"name":"oCharacterFinal","path":"objects/oCharacterFinal/oCharacterFinal.yy",},},
     {"id":{"name":"oChest","path":"objects/oChest/oChest.yy",},},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},},
     {"id":{"name":"oDialog","path":"objects/oDialog/oDialog.yy",},},
@@ -51,6 +54,7 @@
     {"id":{"name":"oRoomStart","path":"objects/oRoomStart/oRoomStart.yy",},},
     {"id":{"name":"oTorch","path":"objects/oTorch/oTorch.yy",},},
     {"id":{"name":"Basement","path":"rooms/Basement/Basement.yy",},},
+    {"id":{"name":"Final","path":"rooms/Final/Final.yy",},},
     {"id":{"name":"House","path":"rooms/House/House.yy",},},
     {"id":{"name":"MouseClick","path":"scripts/MouseClick/MouseClick.yy",},},
     {"id":{"name":"Recipes","path":"scripts/Recipes/Recipes.yy",},},
@@ -64,6 +68,7 @@
     {"id":{"name":"sChangeRoom","path":"sprites/sChangeRoom/sChangeRoom.yy",},},
     {"id":{"name":"sCharacter_Idle","path":"sprites/sCharacter_Idle/sCharacter_Idle.yy",},},
     {"id":{"name":"sCharacter_Move","path":"sprites/sCharacter_Move/sCharacter_Move.yy",},},
+    {"id":{"name":"sCharacterFinal","path":"sprites/sCharacterFinal/sCharacterFinal.yy",},},
     {"id":{"name":"sChest","path":"sprites/sChest/sChest.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
@@ -95,6 +100,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"House","path":"rooms/House/House.yy",},},
     {"roomId":{"name":"Basement","path":"rooms/Basement/Basement.yy",},},
+    {"roomId":{"name":"Final","path":"rooms/Final/Final.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
