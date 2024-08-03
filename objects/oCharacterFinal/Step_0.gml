@@ -28,6 +28,25 @@ if place_meeting(x, y + yspd,oCollision)
 	}else if shoot
 	{
 		sprite_index = sCharacterFinalShoot
+		if cooldown < 0
+		{
+			if image_xscale == 1
+			{
+				var ammo = instance_create_layer(x+30,y-35,"ammo",oShootingAmmo)
+			}
+			else
+			{
+				var ammo = instance_create_layer(x-30,y-35,"ammo",oShootingAmmo)
+				ammo.image_xscale = image_xscale
+			}
+			ammo.dir = image_xscale
+			
+			cooldown = 20	
+		}
+		else
+		{
+			cooldown -= 1
+		}
 	}
 }
 else
