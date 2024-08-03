@@ -1,6 +1,7 @@
 left = keyboard_check(ord("A"))
 right = keyboard_check(ord("D"))
 jump = keyboard_check_pressed(vk_space)
+shoot = keyboard_check(ord("F"))
 
 xspd = (right - left) * 1.5
 yspd += grav
@@ -24,6 +25,9 @@ if place_meeting(x, y + yspd,oCollision)
 	if jump 
 	{
 		yspd = jspd
+	}else if shoot
+	{
+		sprite_index = sCharacterFinalShoot
 	}
 }
 else

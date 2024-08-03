@@ -73,6 +73,7 @@
     {"id":{"name":"sCharacterFinalDead","path":"sprites/sCharacterFinalDead/sCharacterFinalDead.yy",},},
     {"id":{"name":"sCharacterFinalJump","path":"sprites/sCharacterFinalJump/sCharacterFinalJump.yy",},},
     {"id":{"name":"sCharacterFinalRun","path":"sprites/sCharacterFinalRun/sCharacterFinalRun.yy",},},
+    {"id":{"name":"sCharacterFinalShoot","path":"sprites/sCharacterFinalShoot/sCharacterFinalShoot.yy",},},
     {"id":{"name":"sChest","path":"sprites/sChest/sChest.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sDoor","path":"sprites/sDoor/sDoor.yy",},},
