@@ -40,7 +40,7 @@ if place_meeting(x, y + yspd,oCollision)
 				ammo.image_xscale = image_xscale
 			}
 			ammo.dir = image_xscale
-			
+			audio_play_sound(sdShoot,1,false)
 			cooldown = 20	
 		}
 		else
@@ -54,8 +54,14 @@ else
 	sprite_index = sCharacterFinalJump
 }
 
-
-show_debug_message(yspd)
-
+if xspd != 0 and not audio_is_playing(sdWalkOnGrass)
+{
+	audio_play_sound(sdWalkOnGrass,1,true)
+	audio_sound_pitch(sdWalkOnGrass,2)
+}
+else if xspd == 0
+{
+	audio_stop_sound(sdWalkOnGrass)
+}
 x += xspd
 y += yspd

@@ -30,7 +30,16 @@ if not oInventory.open
 	{
 		yspd = 0
 	}
-
+	
+	if (xspd != 0 or yspd != 0) and not audio_is_playing(sdWalk)
+	{
+		audio_play_sound(sdWalk,1,true)
+		audio_sound_pitch(sdWalk,0.7)
+	}
+	else if xspd == 0 and yspd == 0
+	{
+		audio_stop_sound(sdWalk)
+	}
 	x += xspd * deltatime
 	y += yspd * deltatime
 }
