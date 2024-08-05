@@ -59,9 +59,14 @@ if xspd != 0 and not audio_is_playing(sdWalkOnGrass)
 	audio_play_sound(sdWalkOnGrass,1,true)
 	audio_sound_pitch(sdWalkOnGrass,2)
 }
-else if xspd == 0
+else if xspd == 0 or yspd != 0
 {
-	audio_stop_sound(sdWalkOnGrass)
+	audio_pause_sound(sdWalkOnGrass)
 }
+else if xspd != 0 and audio_is_paused(sdWalkOnGrass)
+{
+	audio_resume_sound(sdWalkOnGrass)
+}
+
 x += xspd
 y += yspd

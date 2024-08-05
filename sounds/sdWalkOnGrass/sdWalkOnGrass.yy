@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":24.92399,
+  "duration":24.92,
   "name":"sdWalkOnGrass",
   "parent":{
     "name":"Sound",

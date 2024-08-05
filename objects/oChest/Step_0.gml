@@ -5,6 +5,7 @@ if collision_circle(x,y,32,oCharacter,false,true) and not open
 	{
 		open = true
 		array_insert(global.items,0,sFire,sAir,sWater,sEarth)
+		audio_play_sound(sdChestOpen,1,false)
 	}
 }
 else if pass == true

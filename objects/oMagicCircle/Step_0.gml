@@ -6,6 +6,9 @@ if collision_circle(x,y,18,oCharacter,false,true)
 		if ShowKey()
 		{
 			image_index = 1
+			
+			audio_play_sound(sdMagicCircle,1,false)	
+			
 			with oFkey
 			{
 				instance_destroy()
@@ -36,7 +39,14 @@ else if pass == true
 	{
 		instance_destroy()
 	}
-	array_insert(global.items,0,global.meterial_items[0],global.meterial_items[1])
+	if global.meterial_items[0] != noone and global.meterial_items[0] != undefined
+	{	
+		array_insert(global.items,0,global.meterial_items[0])
+	}
+	if global.meterial_items[1] != noone and global.meterial_items[1] != undefined
+	{	
+		array_insert(global.items,0,global.meterial_items[1])
+	}
 	array_delete(global.meterial_items,0,2)
 	ShowDialog(0,0,"")
 }
