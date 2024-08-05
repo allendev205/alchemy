@@ -1,18 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oShootingAmmo",
+  "%Name":"oEnemy_Idle",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oEnemy_Idle","path":"objects/oEnemy_Idle/oEnemy_Idle.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oShootingAmmo",
+  "name":"oEnemy_Idle",
   "overriddenProperties":[],
   "parent":{
-    "name":"final",
-    "path":"folders/Objects/final.yy",
+    "name":"enemy",
+    "path":"folders/Objects/enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sShootingAmmo",
-    "path":"sprites/sShootingAmmo/sShootingAmmo.yy",
+    "name":"sEnemy_Idle",
+    "path":"sprites/sEnemy_Idle/sEnemy_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
