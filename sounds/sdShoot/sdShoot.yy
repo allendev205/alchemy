@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.17,
+  "duration":2.220408,
   "name":"sdShoot",
   "parent":{
     "name":"Sound",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sdShoot.wav",
+  "soundFile":"sdShoot.mp3",
   "type":0,
   "volume":1.0,
 }

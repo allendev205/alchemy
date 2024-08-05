@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.618979,
+  "duration":0.648,
   "name":"sdDoorOpen",
   "parent":{
     "name":"Sound",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sdDoorOpen.wav",
+  "soundFile":"sdDoorOpen.mp3",
   "type":0,
   "volume":1.0,
 }

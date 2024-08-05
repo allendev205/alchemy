@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.926625,
+  "duration":0.96,
   "name":"sdChestOpen",
   "parent":{
     "name":"Sound",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sdChestOpen.wav",
+  "soundFile":"sdChestOpen.mp3",
   "type":0,
   "volume":1.0,
 }

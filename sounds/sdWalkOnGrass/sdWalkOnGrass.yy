@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":24.92,
+  "duration":24.94694,
   "name":"sdWalkOnGrass",
   "parent":{
     "name":"Sound",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sdWalkOnGrass.wav",
+  "soundFile":"sdWalkOnGrass.mp3",
   "type":0,
   "volume":1.0,
 }
