@@ -10,7 +10,23 @@ if abs(x - oCharacterFinal.x) >= 250 and not Cast
 	CharacterX = oCharacterFinal.x
 	CharacterY = oCharacterFinal.y
 }
-
+else if abs(x - oCharacterFinal.x) <= 100
+{
+	sprite_index = sEnemy_Teleport
+	if image_index >= image_number -1
+	{
+		CharacterX = oCharacterFinal.x - 10
+		CharacterY = oCharacterFinal.y
+		image_xscale = -image_xscale
+		instance_change(oEnemy_Attack,true)
+	}
+}
+else if abs(x - oCharacterFinal.x) <= 200
+{
+	sprite_index = sEnemy_Walk
+	xspd = -1
+}	
+	
 if Cast
 {
 	sprite_index = sEnemy_Cast
@@ -27,3 +43,4 @@ if Cast
 	}
 }
 
+x += xspd

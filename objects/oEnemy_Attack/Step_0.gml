@@ -6,3 +6,4 @@ else if phase2
 {
 	sprite_index = sEnemy_Attack2
 }
+
