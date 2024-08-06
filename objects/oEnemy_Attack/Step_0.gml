@@ -1,4 +1,4 @@
-if count > 3 and not teleport
+if count >= 3 and not teleport
 {
 	sprite_index = sEnemy_Teleport
 	teleport = true
@@ -12,6 +12,6 @@ if image_index == image_number
 	}
 	else
 	{
-		instance_destroy()
+		instance_change(oEnemy_Skill,true)
 	}
 }
