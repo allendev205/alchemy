@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sEnemy_Cast",
-    "path":"sprites/sEnemy_Cast/sEnemy_Cast.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
