@@ -2,8 +2,7 @@ x = 240
 y = 95
 
 var spell = choose("Fire","Water","Air","Earth")
-
-show_debug_message(spell)
+spell = "Water"
 
 switch (spell)
 {
@@ -25,7 +24,7 @@ switch (spell)
 	case "Water":
 		sprite_index = sEnemy_Cast_Water
 		
-		instance_create_layer(x,y,"spell",oSkill_Water)
+		instance_create_layer(10,140,"spell",oSkill_Water)
 		
 		break
 		

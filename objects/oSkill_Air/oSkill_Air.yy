@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oEnemy_Attack",
+  "%Name":"oSkill_Air",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oEnemy_Attack",
+  "name":"oSkill_Air",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy",
-    "path":"folders/Objects/enemy.yy",
+    "name":"skills",
+    "path":"folders/Objects/skills.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sEnemy_Attack1",
-    "path":"sprites/sEnemy_Attack1/sEnemy_Attack1.yy",
+    "name":"sAir_Burst_Prepare",
+    "path":"sprites/sAir_Burst_Prepare/sAir_Burst_Prepare.yy",
   },
   "spriteMaskId":null,
   "visible":true,
