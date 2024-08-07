@@ -1,8 +1,12 @@
+randomize()
+
 x = 240
 y = 95
 
 var spell = choose("Fire","Water","Air","Earth")
-spell = "Earth"
+
+show_debug_message(spell)
+
 switch (spell)
 {
 	case "Fire":
@@ -11,11 +15,15 @@ switch (spell)
 		var form = choose("fire1","fire2")
 		if form == "fire1"
 		{
-			instance_create_layer(x,y,"spell",oSkill_Fire1)
+			instance_create_layer(0,130,"spell",oSkill_Fire1)
+			instance_create_layer(91,130,"spell",oSkill_Fire1)
+			instance_create_layer(191,130,"spell",oSkill_Fire1)
+			instance_create_layer(291,130,"spell",oSkill_Fire1)
+			instance_create_layer(391,130,"spell",oSkill_Fire1)
 		}
 		else
 		{
-			instance_create_layer(x,y,"spell",oSkill_Fire2)
+			instance_create_layer(0,148,"spell",oSkill_Fire2)
 		}
 		
 		break

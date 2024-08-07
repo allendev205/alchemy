@@ -18,7 +18,7 @@ else if abs(x - oCharacterFinal.x) <= 100 and not Teleport
 else if abs(x - oCharacterFinal.x) <= 200 and not Teleport
 {
 	sprite_index = sEnemy_Walk
-	xspd = -1
+	xspd = -1.5
 }	
 	
 if Cast
