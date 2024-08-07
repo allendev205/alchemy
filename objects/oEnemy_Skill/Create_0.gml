@@ -3,9 +3,19 @@ randomize()
 x = 240
 y = 95
 
+Air_dir = 1
+
 var spell = choose("Fire","Water","Air","Earth")
 
-show_debug_message(spell)
+//wind
+if oCharacterFinal.x < 96 or oCharacterFinal.x > room_width - 96
+{
+	spell = "Air"
+	if oCharacterFinal.x > room_width - 96
+	{
+		Air_dir = -1
+	}
+}
 
 switch (spell)
 {
@@ -38,7 +48,15 @@ switch (spell)
 	case "Air":
 		sprite_index = sEnemy_Cast_Air
 		
-		instance_create_layer(10,160,"spell",oSkill_Air)
+		if Air_dir == 1
+		{
+			instance_create_layer(0,116,"spell",oSkill_Air)
+		}
+		else
+		{
+			instance_create_layer(room_width,116,"spell",oSkill_Air)
+		}
+		
 		
 		break
 		
