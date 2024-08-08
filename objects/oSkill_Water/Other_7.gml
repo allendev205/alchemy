@@ -4,5 +4,6 @@ if not hitwall
 }
 else
 {
+	oSkill_control.skill_finish = true
 	instance_destroy()
 }

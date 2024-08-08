@@ -69,6 +69,7 @@
     {"id":{"name":"oRoomStart","path":"objects/oRoomStart/oRoomStart.yy",},},
     {"id":{"name":"oShootingAmmo","path":"objects/oShootingAmmo/oShootingAmmo.yy",},},
     {"id":{"name":"oSkill_Air","path":"objects/oSkill_Air/oSkill_Air.yy",},},
+    {"id":{"name":"oSkill_control","path":"objects/oSkill_control/oSkill_control.yy",},},
     {"id":{"name":"oSkill_Earth","path":"objects/oSkill_Earth/oSkill_Earth.yy",},},
     {"id":{"name":"oSkill_Fire1","path":"objects/oSkill_Fire1/oSkill_Fire1.yy",},},
     {"id":{"name":"oSkill_Fire2","path":"objects/oSkill_Fire2/oSkill_Fire2.yy",},},

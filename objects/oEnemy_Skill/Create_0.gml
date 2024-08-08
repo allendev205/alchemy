@@ -5,7 +5,7 @@ y = 95
 
 Air_dir = 1
 
-var spell = choose("Fire","Water","Air","Earth")
+var spell = choose("Fire","Water","Earth")
 
 //wind
 if oCharacterFinal.x < 96 or oCharacterFinal.x > room_width - 96
@@ -41,7 +41,7 @@ switch (spell)
 	case "Water":
 		sprite_index = sEnemy_Cast_Water
 		
-		instance_create_layer(10,140,"spell",oSkill_Water)
+		instance_create_layer(0,145,"spell",oSkill_Water)
 		
 		break
 		
