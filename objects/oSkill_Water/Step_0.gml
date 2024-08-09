@@ -1,6 +1,6 @@
 if not hitwall
 {
-	xspd = 2.5
+	xspd = 4
 }
 else
 {
