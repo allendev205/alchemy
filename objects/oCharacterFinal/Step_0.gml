@@ -30,17 +30,38 @@ if place_meeting(x, y + yspd,oCollision)
 		sprite_index = sCharacterFinalShoot
 		if cooldown < 0
 		{
-			if image_xscale == 1
+			if oCharacterBar.ammo > 0
 			{
-				var ammo = instance_create_layer(x+30,y-35,"ammo",oShootingAmmo)
+				if image_xscale == 1
+				{
+					var ammo = instance_create_layer(x+30,y-35,"ammo",oShootingAmmo)
+				}
+				else
+				{
+					var ammo = instance_create_layer(x-30,y-35,"ammo",oShootingAmmo)
+					ammo.image_xscale = image_xscale
+				}
+				ammo.dir = image_xscale
+				audio_play_sound(sdShoot,1,false)
+				
+				oCharacterBar.ammo -= 1
 			}
 			else
 			{
-				var ammo = instance_create_layer(x-30,y-35,"ammo",oShootingAmmo)
-				ammo.image_xscale = image_xscale
+				if not audio_exists(sdReload)
+				{
+					if not reloading
+					{
+						audio_play_sound(sdReload,1,false)
+						reloading = true
+					}
+					else
+					{
+						oCharacterBar.ammo = 8
+					}
+				}
 			}
-			ammo.dir = image_xscale
-			audio_play_sound(sdShoot,1,false)
+			
 			cooldown = 20	
 		}
 		else

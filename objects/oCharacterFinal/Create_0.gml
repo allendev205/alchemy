@@ -5,3 +5,5 @@ grav = 0.1
 jspd = -3.5
 
 cooldown = 0
+
+reloading = false
