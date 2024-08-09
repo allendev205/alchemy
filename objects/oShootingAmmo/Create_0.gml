@@ -1,2 +1,2 @@
-cooldown = 10
+cooldown = 0
 dir = 0

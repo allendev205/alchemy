@@ -19,6 +19,17 @@ if place_meeting(x + xspd, y, oCollision) {
     xspd = 0
 }
 
+//reload
+if reloading
+{
+	if not audio_is_playing(sdReload)
+	{
+		oCharacterBar.ammo = oCharacterBar.maxammo
+		reloading = false
+	}
+}
+
+//shoot and jump
 if place_meeting(x, y + yspd,oCollision)
 {
 	yspd = 0
@@ -28,9 +39,19 @@ if place_meeting(x, y + yspd,oCollision)
 	}else if shoot
 	{
 		sprite_index = sCharacterFinalShoot
-		if cooldown < 0
+		
+		if oCharacterBar.ammo <= 0
 		{
-			if oCharacterBar.ammo > 0
+			if not reloading
+			{
+				audio_play_sound(sdReload,1,false)
+				reloading = true
+			}
+		}
+		else
+		{
+		
+			if cooldown < 0
 			{
 				if image_xscale == 1
 				{
@@ -45,28 +66,13 @@ if place_meeting(x, y + yspd,oCollision)
 				audio_play_sound(sdShoot,1,false)
 				
 				oCharacterBar.ammo -= 1
+				
+				cooldown = 20	
 			}
 			else
 			{
-				if not audio_exists(sdReload)
-				{
-					if not reloading
-					{
-						audio_play_sound(sdReload,1,false)
-						reloading = true
-					}
-					else
-					{
-						oCharacterBar.ammo = 8
-					}
-				}
+				cooldown -= 1
 			}
-			
-			cooldown = 20	
-		}
-		else
-		{
-			cooldown -= 1
 		}
 	}
 }
