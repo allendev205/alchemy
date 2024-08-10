@@ -9,6 +9,8 @@ if global.meterial_items[1] != noone
 	{
 		array_delete(global.meterial_items,1,1)
 		array_insert(global.items,0,item)
+		
+		audio_play_sound(sdSelect,1,false)
 	}
 	
 	draw_sprite(item,0,xx,yy)

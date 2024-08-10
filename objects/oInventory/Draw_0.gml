@@ -74,6 +74,8 @@ if room == Basement
 					{
 						array_delete(global.items,i,1)
 						array_insert(global.meterial_items,0,item)
+						
+						audio_play_sound(sdSelect,1,false)
 					}
 					else
 					{

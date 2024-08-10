@@ -7,6 +7,14 @@ if (mouse_x > x and mouse_x < x + sprite_get_width(sInventory_icon) and
 		if click
 		{
 			oInventory.open = !oInventory.open
+			if oInventory.open == true
+			{
+				audio_play_sound(sdOpenInventory,1,false)
+			}
+			else
+			{
+				audio_play_sound(sdCloseInventory,1,false)
+			}
 		
 		}
 	}
