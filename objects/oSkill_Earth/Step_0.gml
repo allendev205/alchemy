@@ -4,7 +4,7 @@ if image_index == 6
 }
 if not hitfloor and image_index >= 6
 {
-	yspd = 2
+	yspd = sample_yspd
 	xspd = sample_xspd
 }
 else

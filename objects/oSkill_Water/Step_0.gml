@@ -1,6 +1,6 @@
 if not hitwall
 {
-	xspd = 4
+	xspd = 4 * _dir
 }
 else
 {

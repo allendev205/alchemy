@@ -41,7 +41,29 @@ switch (spell)
 	case "Water":
 		sprite_index = sEnemy_Cast_Water
 		
-		instance_create_layer(0,145,"spell",oSkill_Water)
+		dir = choose(1,-1)
+		if dir == 1
+		{
+			X = 0
+		}
+		else
+		{
+			X = 480
+		}
+		water = instance_create_layer(X,145,"spell",oSkill_Water)
+		
+		water._dir = dir
+		
+		if dir != 1
+		{
+			water.image_xscale = -1
+		}
+		else
+		{
+			water.image_xscale = 1
+		}
+		
+		
 		
 		break
 		
