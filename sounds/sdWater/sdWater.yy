@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sdWater",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":2.246531,
+  "name":"sdWater",
+  "parent":{
+    "name":"spell",
+    "path":"folders/Sound/spell.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sdWater.mp3",
+  "type":0,
+  "volume":1.0,
+}
