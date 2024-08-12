@@ -12,6 +12,7 @@ if abs(x - oCharacterFinal.x) >= 250 and not Cast
 }
 else if abs(x - oCharacterFinal.x) <= 100 and not Teleport
 {
+	audio_play_sound(sdTeleport,1,false)
 	sprite_index = sEnemy_Teleport
 	Teleport = true
 }
