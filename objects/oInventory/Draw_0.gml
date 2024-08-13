@@ -4,6 +4,10 @@ if open
 	x = 143
 	
 	draw_self(); 
+	
+	instance_create_layer(326,94,"inventory_change",oInventory_change1)
+	instance_create_layer(326,114,"inventory_change",oInventory_change2)
+	
   
 	for (var i = 0; i < inventory_size; i++) 
 	{
