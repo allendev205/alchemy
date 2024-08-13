@@ -16,6 +16,8 @@ if (mouse_x > x and mouse_x < x + sprite_get_width(sInventory_icon) and
 				audio_play_sound(sdCloseInventory,1,false)
 			}
 		
+			instance_create_layer(326,94,"inventory_change",oInventory_change1)
+			instance_create_layer(326,114,"inventory_change",oInventory_change2)
 		}
 	}
 }

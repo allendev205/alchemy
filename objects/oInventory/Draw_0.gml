@@ -5,15 +5,22 @@ if open
 	
 	draw_self(); 
 	
-	instance_create_layer(326,94,"inventory_change",oInventory_change1)
-	instance_create_layer(326,114,"inventory_change",oInventory_change2)
-	
-  
-	for (var i = 0; i < inventory_size; i++) 
+	if slot_change
 	{
-      
-		var item = global.items[i];
-  
+		ShowItemName(0,0,"")
+		slot_change = false
+	}
+	
+	for (var i = 0; i < inventory_size/2; i++) 
+	{
+		if slot == 1
+		{
+			var item = global.items[i];
+		}
+		else if slot == 2
+		{
+			var item = global.items[i+(inventory_size/2)];
+		}
 		if i % 2 == 0
 		{
 			extra += 25
