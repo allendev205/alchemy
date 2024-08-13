@@ -47,6 +47,7 @@ else if pass == true
 	{	
 		array_insert(global.items,0,global.meterial_items[1])
 	}
-	array_delete(global.meterial_items,0,2)
+	global.meterial_items[0] = noone
+	global.meterial_items[1] = noone
 	ShowDialog(0,0,"")
 }

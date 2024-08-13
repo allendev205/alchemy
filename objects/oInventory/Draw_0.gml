@@ -5,6 +5,13 @@ if open
 	
 	draw_self(); 
 	
+	if array_length(layer_get_all_elements("inventory_change")) < 1
+	{
+		instance_create_layer(326,94,"inventory_change",oInventory_change1)
+		instance_create_layer(326,114,"inventory_change",oInventory_change2)
+	}
+	
+	
 	if slot_change
 	{
 		ShowItemName(0,0,"")
@@ -21,6 +28,7 @@ if open
 		{
 			var item = global.items[i+(inventory_size/2)];
 		}
+		
 		if i % 2 == 0
 		{
 			extra += 25
@@ -42,7 +50,7 @@ if open
 				item_name = string_delete(item_name,1,1)
 				ShowItemName(xx,yy-12,item_name)
 			}
-			
+		
 			draw_sprite(item,0,xx+8,yy+8)
 		}
 	}
@@ -58,11 +66,30 @@ if room == Basement
 	{	
 		x = 20
 		draw_self(); 
+		
+		if array_length(layer_get_all_elements("inventory_change")) < 1
+		{
+			instance_create_layer(203,94,"inventory_change",oInventory_change1)
+			instance_create_layer(203,114,"inventory_change",oInventory_change2)
+		}
+		
+		if slot_change
+		{
+			ShowItemName(0,0,"")
+			slot_change = false
+		}
   
-		for (var i = 0; i < inventory_size; i++) 
+		for (var i = 0; i < inventory_size/2; i++) 
 		{
       
-			var item = global.items[i];
+			if slot == 1
+			{
+				var item = global.items[i];
+			}
+			else if slot == 2
+			{
+				var item = global.items[i+(inventory_size/2)];
+			}
   
 			if i % 2 == 0
 			{
@@ -83,7 +110,16 @@ if room == Basement
 				{
 					if global.meterial_items[0] == noone or global.meterial_items[1] == noone
 					{
-						array_delete(global.items,i,1)
+						
+						if slot == 1
+						{
+							array_delete(global.items,i,1)
+						}
+						else if slot == 2
+						{
+							array_delete(global.items,i+(inventory_size/2),1)
+						}
+						
 						array_insert(global.meterial_items,0,item)
 						
 						audio_play_sound(sdSelect,1,false)
