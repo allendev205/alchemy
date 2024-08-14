@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"oLeave",
+  "%Name":"oMain_select",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oLeave",
+  "name":"oMain_select",
   "overriddenProperties":[],
   "parent":{
     "name":"main",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sLeave",
-    "path":"sprites/sLeave/sLeave.yy",
+    "name":"sMain_select",
+    "path":"sprites/sMain_select/sMain_select.yy",
   },
   "spriteMaskId":null,
   "visible":true,
