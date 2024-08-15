@@ -51,6 +51,7 @@
   "name":"alchemy",
   "resources":[
     {"id":{"name":"fDialog","path":"fonts/fDialog/fDialog.yy",},},
+    {"id":{"name":"oAttack1_hitbox","path":"objects/oAttack1_hitbox/oAttack1_hitbox.yy",},},
     {"id":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},},
     {"id":{"name":"oCharacterBar","path":"objects/oCharacterBar/oCharacterBar.yy",},},
@@ -128,6 +129,7 @@
     {"id":{"name":"sAir","path":"sprites/sAir/sAir.yy",},},
     {"id":{"name":"sAmmo","path":"sprites/sAmmo/sAmmo.yy",},},
     {"id":{"name":"sAmmovalue","path":"sprites/sAmmovalue/sAmmovalue.yy",},},
+    {"id":{"name":"sAttack1_hitbox","path":"sprites/sAttack1_hitbox/sAttack1_hitbox.yy",},},
     {"id":{"name":"sBasement","path":"sprites/sBasement/sBasement.yy",},},
     {"id":{"name":"sChangeRoom","path":"sprites/sChangeRoom/sChangeRoom.yy",},},
     {"id":{"name":"sCharacter_Idle","path":"sprites/sCharacter_Idle/sCharacter_Idle.yy",},},

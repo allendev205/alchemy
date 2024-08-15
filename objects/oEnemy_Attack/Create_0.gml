@@ -7,6 +7,8 @@ count = 0
 phase1 = true
 phase2 = false
 
+attacking = false
+
 if phase1
 {
 	sprite_index = sEnemy_Attack1

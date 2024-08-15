@@ -1,4 +1,5 @@
-if image_index >= image_number-1
+if image_index > 5 and not sound
 {
-	instance_destroy()
+	audio_play_sound(sdSpell,1,false)
+	sound = true
 }
