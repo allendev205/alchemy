@@ -7,6 +7,13 @@ Air_dir = 1
 
 var spell = choose("Fire","Water","Earth")
 
+while spell == oEnemy_control.last_skill
+{
+	spell = choose("Fire","Water","Earth")
+}
+
+oEnemy_control.last_skill = spell
+
 //wind
 if oCharacterFinal.x < 96 or oCharacterFinal.x > room_width - 96
 {
@@ -93,3 +100,5 @@ switch (spell)
 		
 		break
 }
+
+oEnemy_control.skill_count += 1

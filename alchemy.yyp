@@ -63,6 +63,7 @@
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},},
     {"id":{"name":"oElement_Animation","path":"objects/oElement_Animation/oElement_Animation.yy",},},
     {"id":{"name":"oEnemy_Attack","path":"objects/oEnemy_Attack/oEnemy_Attack.yy",},},
+    {"id":{"name":"oEnemy_control","path":"objects/oEnemy_control/oEnemy_control.yy",},},
     {"id":{"name":"oEnemy_Skill","path":"objects/oEnemy_Skill/oEnemy_Skill.yy",},},
     {"id":{"name":"oEnemy_Spell","path":"objects/oEnemy_Spell/oEnemy_Spell.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},

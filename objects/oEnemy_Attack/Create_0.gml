@@ -4,11 +4,9 @@ y = CharacterY
 teleport = false
 count = 0
 
-phase1 = true
-
 attacking = false
 
-if phase1
+if oEnemy_control.phase == 1
 {
 	sprite_index = sEnemy_Attack1
 }

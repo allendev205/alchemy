@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"sEnemy_Idle",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":62,
-  "bbox_left":5,
-  "bbox_right":51,
+  "bbox_left":16,
+  "bbox_right":42,
   "bbox_top":7,
   "collisionKind":1,
   "collisionTolerance":0,

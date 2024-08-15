@@ -1,4 +1,4 @@
-if hp <= 50
+if hp <= 100
 {
-	oEnemy_Attack.phase1 = false
+	oEnemy_control.phase = 2
 }

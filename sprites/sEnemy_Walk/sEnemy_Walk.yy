@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"sEnemy_Walk",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":59,
-  "bbox_left":10,
-  "bbox_right":66,
+  "bbox_left":32,
+  "bbox_right":52,
   "bbox_top":5,
   "collisionKind":1,
   "collisionTolerance":0,

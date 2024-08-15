@@ -11,7 +11,7 @@ if image_index < 1 and not audio_is_playing(sdSlash) and sprite_index != sEnemy_
 	audio_play_sound(sdSlash,1,false)
 }
 
-if phase1
+if oEnemy_control.phase == 1
 {
 	if image_index > 3 and image_index < 6 and not attacking and sprite_index == sEnemy_Attack1
 	{
