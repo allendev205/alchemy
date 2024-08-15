@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"sCharacterFinalJump",
-  "bboxMode":0,
-  "bbox_bottom":63,
+  "bboxMode":2,
+  "bbox_bottom":41,
   "bbox_left":20,
   "bbox_right":43,
   "bbox_top":9,
