@@ -110,6 +110,7 @@
     {"id":{"name":"sdEarth","path":"sounds/sdEarth/sdEarth.yy",},},
     {"id":{"name":"sdFire1","path":"sounds/sdFire1/sdFire1.yy",},},
     {"id":{"name":"sdFire2","path":"sounds/sdFire2/sdFire2.yy",},},
+    {"id":{"name":"sdGet_hit","path":"sounds/sdGet_hit/sdGet_hit.yy",},},
     {"id":{"name":"sdMagicCircle","path":"sounds/sdMagicCircle/sdMagicCircle.yy",},},
     {"id":{"name":"sdMainChange","path":"sounds/sdMainChange/sdMainChange.yy",},},
     {"id":{"name":"sdMainSelect","path":"sounds/sdMainSelect/sdMainSelect.yy",},},

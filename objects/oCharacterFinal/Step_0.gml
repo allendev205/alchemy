@@ -97,3 +97,12 @@ else if xspd != 0 and audio_is_paused(sdWalkOnGrass)
 
 x += xspd
 y += yspd
+
+if white_timer > 0 {
+    white_timer -= 1;
+    if (white_timer <= 0) {
+        image_blend = c_white
+		oCharacterBar.get_hit = false
+		hitting = false
+    }
+}
