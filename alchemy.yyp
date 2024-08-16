@@ -52,6 +52,7 @@
   "resources":[
     {"id":{"name":"fDialog","path":"fonts/fDialog/fDialog.yy",},},
     {"id":{"name":"oAttack1_hitbox","path":"objects/oAttack1_hitbox/oAttack1_hitbox.yy",},},
+    {"id":{"name":"oAttack2_hitbox","path":"objects/oAttack2_hitbox/oAttack2_hitbox.yy",},},
     {"id":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},},
     {"id":{"name":"oCharacterBar","path":"objects/oCharacterBar/oCharacterBar.yy",},},
@@ -105,6 +106,7 @@
     {"id":{"name":"sdAirBlow","path":"sounds/sdAirBlow/sdAirBlow.yy",},},
     {"id":{"name":"sdAirPrepare","path":"sounds/sdAirPrepare/sdAirPrepare.yy",},},
     {"id":{"name":"sdChangeInventory","path":"sounds/sdChangeInventory/sdChangeInventory.yy",},},
+    {"id":{"name":"sdChangePhase","path":"sounds/sdChangePhase/sdChangePhase.yy",},},
     {"id":{"name":"sdChestOpen","path":"sounds/sdChestOpen/sdChestOpen.yy",},},
     {"id":{"name":"sdCloseInventory","path":"sounds/sdCloseInventory/sdCloseInventory.yy",},},
     {"id":{"name":"sdDoorOpen","path":"sounds/sdDoorOpen/sdDoorOpen.yy",},},
@@ -132,6 +134,7 @@
     {"id":{"name":"sAmmo","path":"sprites/sAmmo/sAmmo.yy",},},
     {"id":{"name":"sAmmovalue","path":"sprites/sAmmovalue/sAmmovalue.yy",},},
     {"id":{"name":"sAttack1_hitbox","path":"sprites/sAttack1_hitbox/sAttack1_hitbox.yy",},},
+    {"id":{"name":"sAttack2_hitbox","path":"sprites/sAttack2_hitbox/sAttack2_hitbox.yy",},},
     {"id":{"name":"sBasement","path":"sprites/sBasement/sBasement.yy",},},
     {"id":{"name":"sChangeRoom","path":"sprites/sChangeRoom/sChangeRoom.yy",},},
     {"id":{"name":"sCharacter_Idle","path":"sprites/sCharacter_Idle/sCharacter_Idle.yy",},},

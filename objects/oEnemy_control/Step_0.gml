@@ -1,4 +1,13 @@
-if skill_count >= 3
+if phase == 1
+{
+	skill_limit = 3
+}
+else
+{
+	skill_limit = 5
+}
+
+if skill_count >= skill_limit
 {
 	if oSkill_control.skill_finish
 	{

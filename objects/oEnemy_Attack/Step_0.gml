@@ -28,3 +28,21 @@ if oEnemy_control.phase == 1
 		attacking = false
 	}
 }
+else
+{
+	//phase2
+	if image_index >= 4 and image_index < 9 and not attacking and sprite_index == sEnemy_Attack2
+	{
+		hitbox = instance_create_layer(x,y,"enemy",oAttack2_hitbox)
+		hitbox.image_xscale = image_xscale
+		attacking = true
+	}
+	else if image_index > 9 and attacking
+	{
+		with hitbox 
+		{
+			instance_destroy()
+		}
+		attacking = false
+	}
+}

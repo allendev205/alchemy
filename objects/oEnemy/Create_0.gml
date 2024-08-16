@@ -10,3 +10,5 @@ CharacterY = 0
 
 wait = false
 wait_time = 180
+
+image_xscale = sign(x - oCharacterFinal.x)

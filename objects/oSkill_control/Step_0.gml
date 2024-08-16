@@ -1,4 +1,4 @@
-if oEnemy_control.skill_count < 3 and skill_finish
+if oEnemy_control.skill_count < oEnemy_control.skill_limit and skill_finish
 {
 	if instance_exists(oEnemy_Skill)
 	{
