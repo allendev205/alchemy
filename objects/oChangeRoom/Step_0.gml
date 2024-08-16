@@ -23,7 +23,7 @@ else if go_finalroom
 		}
 		else
 		{
-			ShowDialog(90,230,"It's too dangerous outside you need the weapon")
+			ShowDialog(0,230,"It's too dangerous outside you need the weapon and the portal")
 		}
 	}
 	else

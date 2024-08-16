@@ -126,6 +126,7 @@
     {"name":"inst_193B3054","path":"rooms/House/House.yy",},
     {"name":"inst_2E0F8D34","path":"rooms/House/House.yy",},
     {"name":"inst_6B07CD6F","path":"rooms/House/House.yy",},
+    {"name":"inst_2CFE47E0","path":"rooms/House/House.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -259,6 +260,7 @@
       ],"layers":[],"name":"Character","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Fridge","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_595E9927","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_595E9927","objectId":{"name":"oFridge","path":"objects/oFridge/oFridge.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2CFE47E0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CFE47E0","objectId":{"name":"oCorpse","path":"objects/oCorpse/oCorpse.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":179.0,"y":170.0,},
       ],"layers":[],"name":"Fridge","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"ChangeRoom","depth":800,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_528B5491","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_528B5491","objectId":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},"properties":[
@@ -266,7 +268,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},"propertyId":{"name":"target","path":"objects/oChangeRoom/oChangeRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Basement",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":118.0,"y":126.0,},
         {"$GMRInstance":"v1","%Name":"inst_37F3059E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37F3059E","objectId":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},"propertyId":{"name":"go_finalroom","path":"objects/oChangeRoom/oChangeRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"false",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},"propertyId":{"name":"go_finalroom","path":"objects/oChangeRoom/oChangeRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"true",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"oChangeRoom","path":"objects/oChangeRoom/oChangeRoom.yy",},"propertyId":{"name":"target","path":"objects/oChangeRoom/oChangeRoom.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Final",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":323.0,"y":126.0,},
       ],"layers":[],"name":"ChangeRoom","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
