@@ -7,3 +7,6 @@ Teleport = false
 
 CharacterX = 0
 CharacterY = 0
+
+wait = false
+wait_time = 180
