@@ -8,7 +8,7 @@ if open
 	if array_length(layer_get_all_elements("inventory_change")) < 1
 	{
 		instance_create_layer(326,94,"inventory_change",oInventory_change1)
-		instance_create_layer(326,114,"inventory_change",oInventory_change2)
+		instance_create_layer(326,124,"inventory_change",oInventory_change2)
 	}
 	
 	
@@ -70,7 +70,7 @@ if room == Basement
 		if array_length(layer_get_all_elements("inventory_change")) < 1
 		{
 			instance_create_layer(203,94,"inventory_change",oInventory_change1)
-			instance_create_layer(203,114,"inventory_change",oInventory_change2)
+			instance_create_layer(203,124,"inventory_change",oInventory_change2)
 		}
 		
 		if slot_change
